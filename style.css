@@ -204,7 +204,7 @@ section.name {
       margin-bottom: 20px;
       border-radius: 8px;
       transition: transform 0.3s ease;
-      height: 33rem;
+      height: auto;
       /* display: flex; */
       /* flex-wrap: wrap; */
       /* align-items: center; */
@@ -334,7 +334,9 @@ footer p {
     font-size: 14px;
 }
 
-
+.dummy {
+    visibility: hidden;
+}
 
 
 
@@ -366,7 +368,7 @@ footer p {
 
 .get-name .service {
       padding: 20px;
-      height: 38rem;
+      
     }
 
     .get-name article {
