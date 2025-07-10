@@ -153,6 +153,11 @@ section.welcome {
     font-size: 1.2rem;
     justify-content: center;
     align-items: center;
+    
+}
+
+.message .contact a {
+    color: rgb(102, 151, 241);
 }
 
 .image {
