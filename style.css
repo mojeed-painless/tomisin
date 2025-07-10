@@ -21,7 +21,7 @@ html {
 }
 
 body {
-    background: black;
+    background: white;
     width: 100%;
     /* height: 100vh; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -81,7 +81,7 @@ h4 {
 } */
 
 .container {
-    background-color: black;
+    background-color: white;
 }
 
 .header {
@@ -128,12 +128,12 @@ section.welcome {
  .message {
     width: 100%;
     text-align: center;
-    color: antiquewhite;
+    color: black;
 }
 
 .message h3 {
     margin-bottom: 1rem;
-    color: rgb(99, 99, 219);
+    color: rgb(102, 151, 241);
 }
 
 .message p {
@@ -143,7 +143,7 @@ section.welcome {
 
 .message span {
     font-weight: 500;
-    color: rgb(99, 99, 219);
+    color: rgb(102, 151, 241);
 }
 
 .message .contact {
@@ -170,7 +170,7 @@ section.welcome {
 
 
 section.name {
-    background-color: rgb(99, 99, 219);
+    background-color: rgb(102, 151, 241);
     padding-bottom: 2rem;
 }
 
@@ -241,12 +241,12 @@ section.name {
 }
 
 .place {
-    background: white;
-    color: rgb(99, 99, 219);
+    background: rgb(102, 151, 241);
+    color: white;
     padding: 0.5rem 1rem;
     border-radius: 0.3rem;
     width: fit-content;
-    transition: background-color 500ms ease;
+    transition: all 500ms ease;
     margin: 0 auto;
     border: 1px solid transparent;
     margin-top: 1rem;
@@ -254,14 +254,14 @@ section.name {
 }
 .place:hover {
     background: transparent;
-    border: 1px solid white;
-    color: white;
+    border: 1px solid rgb(102, 151, 241);
+    color: rgb(102, 151, 241);
 }
 
 
 
 section.picture {
-    background-color: black;
+    background-color: white;
     padding-bottom: 2rem;
     
 }
@@ -289,6 +289,7 @@ section.picture {
       object-fit: cover;
       flex-shrink: 0;
       border-radius: 0.5rem;
+      box-shadow: 0 8px 10px rgba(0,0,0,0.05);
     }
 
 
